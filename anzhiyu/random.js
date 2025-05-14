@@ -1,4 +1,4 @@
-var posts=["2025/05/10/AI浪潮之巅：拥抱智能，重塑未来/","2025/03/30/告别复制粘贴！Cursor编辑器：让你和代码“聊”起来，开发效率原地起飞！/","2025/02/22/深入解析Vue响应式系统的设计与实现/"];function toRandomPost(){
+var posts=["2025/05/10/AI浪潮之巅：拥抱智能，重塑未来/","2025/05/12/告别卡顿、泄漏与闪烁：系统性前端性能问题排查（CPU、内存、渲染）/","2025/03/30/告别复制粘贴！Cursor编辑器：让你和代码“聊”起来，开发效率原地起飞！/","2025/02/22/深入解析Vue响应式系统的设计与实现/","2025/02/15/探索MCP服务：高效整合工作与学习的智能工具/","2025/02/10/解锁AI自动化：探索n8n工作流乐高/"];function toRandomPost(){
     pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
   };var friend_link_list=[];
     var refreshNum = 1;
